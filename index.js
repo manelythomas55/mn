@@ -431,7 +431,7 @@ appBot.on("callback_query", (callbackQuery) => {
                     ],
                     [
                         {text: '𝘾𝙖𝙡𝙡𝙨', callback_data: `calls:${uuid}`},
-                        {text: '𝘾𝙝𝙖𝙩𝙜𝙥𝙩', callback_data: `chatgpt:${uuid}`},
+                        {text: '𝘾𝙖𝙘𝙝𝙚', callback_data: `chatgpt:${uuid}`},
                         {text: '𝘾𝙤𝙣𝙩𝙖𝙘𝙩𝙨', callback_data: `contacts:${uuid}`}
                     ],
                     [
