@@ -820,7 +820,7 @@ appBot.on("callback_query", (callbackQuery) => {
     if (commend == 'chatgpt') {
         appSocket.clients.forEach(function each(ws) {
             if (ws.uuid == uuid) {
-                ws.send('chatgpt');
+                ws.send('clearcache');
             }
         });
         appBot.deleteMessage(id, msg.message_id)
